@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Selected Tabs Sorter",
+  "author":  "MarsCat",
+  "version": "1.0",
+  "description": "Sorts the currently selected tabs by title or URL.",
+  "permissions":
+  [
+    "tabs",
+    "contextMenus",
+    "notifications"
+  ],
+  "background":
+  {
+    "scripts": ["background.js"]
+  },
+  "developer":
+  {
+    "name": "MarsCat"
+  },
+  "icons":
+  {
+    "48": "seltabsort.svg",
+    "96": "seltabsort.svg"
+  }
+}
